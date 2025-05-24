@@ -10,24 +10,24 @@
 
   **Description of Columns:**
 
-    * **season**: Season (1:spring, 2:summer, 3:fall, 4:winter).
-    * **yr**: Year (0: 2011, 1: 2012).
-    * **mnth**: Month (1 to 12).
-    * **hr**: Hour (0 to 23).
-    * **holiday**: Holiday (1: yes, 0: no).
-    * **weekday**: Day of the week (0 to 6).
-    * **workingday**: If day is neither weekend nor holiday (1: yes, 0: no).
-    * **weathersit**:
-        * 1: Clear, Few clouds, Partly cloudy, Partly cloudy
-        * 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
-        * 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
-        * 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
-    * **temp**: Normalized temperature in Celsius.
-    * **atemp**: Normalized feeling temperature in Celsius.
-    * **hum**: Normalized humidity.
-    * **windspeed**: Normalized wind speed.
-    * **registered**: Count of registered user rentals initiated at each hour.
-    * **cnt**: Count of total rentals, including both casual and registered. (**Target Variable**)
+* **season**: Season (1:spring, 2:summer, 3:fall, 4:winter).
+* **yr**: Year (0: 2011, 1: 2012).
+* **mnth**: Month (1 to 12).
+* **hr**: Hour (0 to 23).
+* **holiday**: Holiday (1: yes, 0: no).
+* **weekday**: Day of the week (0 to 6).
+* **workingday**: If day is neither weekend nor holiday (1: yes, 0: no).
+* **weathersit**:
+    * 1: Clear, Few clouds, Partly cloudy, Partly cloudy
+    * 2: Mist + Cloudy, Mist + Broken clouds, Mist + Few clouds, Mist
+    * 3: Light Snow, Light Rain + Thunderstorm + Scattered clouds, Light Rain + Scattered clouds
+    * 4: Heavy Rain + Ice Pallets + Thunderstorm + Mist, Snow + Fog
+* **temp**: Normalized temperature in Celsius.
+* **atemp**: Normalized feeling temperature in Celsius.
+* **hum**: Normalized humidity.
+* **windspeed**: Normalized wind speed.
+* **registered**: Count of registered user rentals initiated at each hour.
+* **cnt**: Count of total rentals, including both casual and registered. (**Target Variable**)
 
   **First 5 rows of the dataset:**
 
